@@ -41,7 +41,7 @@ public class sumOfArray {
 		//Finding a product of an array
 		public static int Array(int nums[]) {
 			int product = 1;
-			
+			//For loop to calculate the product of an array
 			for (int counter = 0; counter < nums.length; counter++) {
 				product = product * nums[counter];
 			}

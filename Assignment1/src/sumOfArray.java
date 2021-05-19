@@ -16,6 +16,12 @@ public class sumOfArray {
 		 
 		//Prints the result
 		  System.out.println("The product of these numbers is: " + Array(nums));
+		  
+		  //An Original Array
+		  int [] list = {11,22,33,44,55,66,77,88,99};
+			
+	        //function call to reverse the array
+	        reverseArray(list, list.length);
 
 		}
 

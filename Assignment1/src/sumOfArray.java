@@ -12,4 +12,18 @@ public class sumOfArray {
 			
 			return sum;
 		}
+		
+		//Finding a product of an array
+		public static int Array(int nums[]) {
+			int product = 1;
+			
+			for (int counter = 0; counter < nums.length; counter++) {
+				product = product * nums[counter];
+			}
+			
+
+			return product;
+		
+
+		}
 }

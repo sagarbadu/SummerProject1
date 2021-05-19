@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class sumOfArray {
 	
@@ -43,4 +44,18 @@ public class sumOfArray {
 		
 
 		}
+		
+		//Method to reverse a string
+		public static void reverseArray(int list[], int size) 
+	    { 
+	        int i, temp; 
+	        for (i = 0; i < size / 2; i++) { 
+	            temp = list[i]; 
+	            list[i] = list[size - i - 1]; 
+	            list[size - i - 1] = temp; 
+	        } 
+	 
+	        //printing the reversed array
+	       System.out.println("The reversed array is: " + Arrays.toString(list)); 
+	    } 
 }

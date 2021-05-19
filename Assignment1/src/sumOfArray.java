@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class sumOfArray {
 	
-	
+	//It is a program that calculates the sum, product of an array
+	//The last method reverses the array
        public static void main(String[] args) {
 		
 	    // An array which holds 5 numbers entered by a user

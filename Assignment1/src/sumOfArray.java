@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class sumOfArray {
 	
@@ -15,6 +16,12 @@ public class sumOfArray {
 		 
 		//Prints the result
 		  System.out.println("The product of these numbers is: " + Array(nums));
+		  
+		  //An Original Array
+		  int [] list = {11,22,33,44,55,66,77,88,99};
+			
+	        //function call to reverse the array
+	        reverseArray(list, list.length);
 
 		}
 
@@ -43,4 +50,18 @@ public class sumOfArray {
 		
 
 		}
+		
+		//Method to reverse a string
+		public static void reverseArray(int list[], int size) 
+	    { 
+	        int i, temp; 
+	        for (i = 0; i < size / 2; i++) { 
+	            temp = list[i]; 
+	            list[i] = list[size - i - 1]; 
+	            list[size - i - 1] = temp; 
+	        } 
+	 
+	        //printing the reversed array
+	       System.out.println("The reversed array is: " + Arrays.toString(list)); 
+	    } 
 }
